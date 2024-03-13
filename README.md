@@ -1,8 +1,9 @@
 <h1>NoSQL Challenge</h1> (Using MongoDB and Jupyter Notebook)<br/>
 <h2>DU - DA Module 12 challenge<br/>
-Eat Safe, Love (UK Food Standards Agency ratings data, evaluation)</h2><br/>
-<h3>by Laura Vara</h3><br/>
-This is a work-in-progress project. If you want to see the finished result, please come back in one week, when this project is due. Thank you!
+Eat Safe, Love (UK Food Standards Agency ratings data, evaluation)<br/>
+<br/>
+by Laura Vara</h2><br/>
+This is a work-in-progress project. If you want to see the finished result, please come back in one week, when this project is due. Thank you!<br/>
 
 ((ADD IMAGE HERE))
 <br/>
@@ -50,6 +51,30 @@ The magazine editors have some requested modifications for the database before y
 5. Some of the number values are stored as strings, when they should be stored as numbers.<br/>
 	1. Use **update_many** to convert **latitude** and **longitude** to decimal numbers.<br/>
  	2. Use **update_many** to convert **RatingValue** to integer numbers.<br/>
+
+<h3>Part 3: Exploratory Analysis</h3><br/>
+
+Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.<br/>
+Use **NoSQL_analysis_starter.ipynb** for this section of the challenge.<br/>
+Some notes to be aware of while you are exploring the dataset:<br/>
+* **RatingValue** refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.<br/>
+	* **Note:** This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.<br/>
+* The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.<br/>
+
+Use the following questions to explore the database, and find the answers, so you can provide them to the magazine editors.<br/>
+Unless otherwise stated, for each question:<br/>
+* Use **count_documents** to display the number of documents contained in the result.
+* Display the first document in the results using **pprint**.<br/>
+* Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.<br/>
+1. Which establishments have a hygiene score equal to 20?<br/>
+2. Which establishments in London have a **RatingValue** greater than or equal to 4?<br/>
+**Hint:** The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search.<br/>
+3. What are the top 5 establishments with a **RatingValue** of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?<br/>
+**Hint:** You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.<br/>
+4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.<br/>
+**Hint:** You will need to use the aggregation method to answer this.<br/>
+
+![Part3Image_ReadMe](https://github.com/vara-co/nosql-challenge/assets/152572519/f00ff1a1-23a6-4659-ae23-4757fc6822a4)
 
 <h2>References for NoSQL UK Food Ratings</h2><br/>
 Most of what's in this challenge, was covered in class.<br/>
