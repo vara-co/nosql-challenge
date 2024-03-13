@@ -15,9 +15,10 @@ NOTE:
 2. Instructions for the NoSQL Challenge<br/>
 3. References<br/>
 
-<h2>Content of the repository</h2><br/>
+Content of the repository
+-----------------------------------------------------------
 - Resources directory:
-    - establishments.json  <--
+	- establishments.json  <--
 
 - NoSQL_analysis_LMVS <--
 - NoSQL_setup_LMVS <--
