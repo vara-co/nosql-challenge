@@ -83,5 +83,6 @@ with it's source right below.<br/>
 
 - To create the query for the Analysis, in Part 3, where latitude and longitude are taken into consideration:  <br/>
     - https://stackoverflow.com/questions/54666161/mongoose-gte-and-lte-not-working-properly
+    - https://stackoverflow.com/questions/2234204/find-nearest-latitude-longitude-with-an-sql-query
     
 ----------------------------------------------------------------------------------------------
