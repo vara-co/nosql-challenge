@@ -3,9 +3,9 @@
 Eat Safe, Love (UK Food Standards Agency ratings data, evaluation)<br/>
 <br/>
 by Laura Vara</h2><br/>
-This is a work-in-progress project. If you want to see the finished result, please come back in one week, when this project is due. Thank you!<br/>
 
-((ADD IMAGE HERE))
+![ThumbImageReadME](https://github.com/vara-co/nosql-challenge/assets/152572519/c955025c-2795-475c-b351-261b56f26c85)
+
 <br/>
 NOTE: 
 
@@ -20,7 +20,7 @@ Content of the repository
 - Resources directory:
 	- establishments.json  <-- JSON file to import via the instructions provided on the Jupyter Notebook NoSQL_setup_LMVS
 
-- NoSQL_analysis_LMVS.ipynb <--
+- NoSQL_analysis_LMVS.ipynb <-- Jupyter Notebook file, with Analysis on this challenge
 - NoSQL_setup_LMVS.ipynb <-- Jupyter Notebook file, with CRUD operations
     
 <h2>Instructions for NoSQL UK Food Ratings</h2><br/>
