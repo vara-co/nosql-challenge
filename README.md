@@ -1,4 +1,4 @@
-<h1>NoSQL Challenge</h1> (Using MongoDB and Jupyter Notebook)<br/>
+<h1>NoSQL Challenge</h1> (Using MongoDB and Jupyter Notebook with PyMongo)<br/>
 <h2>DU - DA Module 12 challenge<br/>
 Eat Safe, Love (UK Food Standards Agency ratings data, evaluation)<br/>
 <br/>
@@ -7,7 +7,6 @@ by Laura Vara</h2><br/>
 ![ThumbImageReadME](https://github.com/vara-co/nosql-challenge/assets/152572519/c955025c-2795-475c-b351-261b56f26c85)
 
 <br/>
-NOTE: 
 
 <h2>INDEX</h2><br/>
 
@@ -82,7 +81,7 @@ Most of what's in this challenge, was covered in class.<br/>
 The few things that either weren't or I had to reference to, are described
 with it's source right below.<br/>
 
-- Bla:   <br/>
-    - https:  <br/>
+- To create the query for the Analysis, in Part 3, where latitude and longitude are taken into consideration:  <br/>
+    - https://stackoverflow.com/questions/54666161/mongoose-gte-and-lte-not-working-properly
     
 ----------------------------------------------------------------------------------------------
