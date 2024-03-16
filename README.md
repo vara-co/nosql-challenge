@@ -18,10 +18,10 @@ NOTE:
 Content of the repository
 -----------------------------------------------------------
 - Resources directory:
-	- establishments.json  <--
+	- establishments.json  <-- JSON file to import via the instructions provided on the Jupyter Notebook NoSQL_setup_LMVS
 
-- NoSQL_analysis_LMVS <--
-- NoSQL_setup_LMVS <--
+- NoSQL_analysis_LMVS.ipynb <--
+- NoSQL_setup_LMVS.ipynb <-- Jupyter Notebook file, with CRUD operations
     
 <h2>Instructions for NoSQL UK Food Ratings</h2><br/>
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.<br/>
